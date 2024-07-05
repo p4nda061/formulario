@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+    
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="text" id="data_nascimento"><br><br>
+
+        Sexo:
+        <input type="radio" id="masc" name="sexo">
+        <label for="masc">Masc</label>
+
+        <input type="radio" id="fem" name="sexo">
+        <label for="fem">Fem</label>
+
+        <input type="radio" id="nao_informar" name="sexo">
+        <label for="nao_informar">Prefiro não informar</label><br><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="endereco"><br>
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro"><br>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro"><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade"><br>
+
+        <label for="uf">UF:</label>
+        <select id="uf">
+            <option value="DF">DF</option>
+            <!-- Outras opções seriam listadas aqui -->
+        </select><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
